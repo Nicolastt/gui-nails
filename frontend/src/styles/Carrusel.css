@@ -1,0 +1,78 @@
+.prediction-card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgb(0, 0, 0);
+    padding: 2rem;
+    margin: 0 auto;
+    margin-inside: 2rem;
+    max-width: 100%;
+    background-image: linear-gradient(to bottom right, #f3f3f3, #ffffff);
+}
+
+.prediction-card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #000000;
+}
+
+.custom-carousel {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+.carousel-card {
+    flex: 0 0 auto;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-card:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.custom-carousel:hover .carousel-inner {
+    animation-play-state: paused;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
