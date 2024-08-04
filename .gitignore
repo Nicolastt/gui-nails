@@ -1,0 +1,5 @@
+/models/ModelsPesosHandsColor/cnn_modelHandsFinal.h5
+/models/ModelsPesosHandsColor/pesosHandsFinal.h5
+/models/ModelsPesosTypeFinger/cnn4_modelFingersFinal.h5
+/models/ModelsPesosTypeFinger/pesos4FingersFinal.h5
+/.venv/
